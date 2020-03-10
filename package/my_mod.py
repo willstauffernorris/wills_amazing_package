@@ -1,5 +1,5 @@
 
-import pandas as import pd
+import pandas as pd
 '''
 test function
 '''
