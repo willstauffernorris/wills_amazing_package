@@ -1,21 +1,24 @@
 
 import pandas as pd
-'''
-test function
-'''
+
+#title- description of what this program does
 
 
 def mega(i):
+    '''
+    test function
+    '''
+
     return i * 100
 
 
-'''
-Single function to take a list, turn it into a series
-'''
+
 
 
 def list_to_series(y):
     '''
+    Single function to take a list, turn it into a series
+
     x must be a list in this format: ['item a', 'item b', 'item c']
     '''
     series = pd.Series(y)
