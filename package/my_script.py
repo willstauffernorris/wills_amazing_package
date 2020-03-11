@@ -1,4 +1,7 @@
 
+from package.my_mod import Roadtrip
+from package.my_mod import date_breaker
+from package.my_mod import list_to_series
 import pandas as pd
 
 from package.my_mod import mega
@@ -6,14 +9,13 @@ from package.my_mod import mega
 print('hell ya')
 
 
-i=5
+i = 5
 print("number", i)
 
 print("mega number", mega(i))
 
-from package.my_mod import list_to_series
 
-wills_list = [1,2,3]
+wills_list = [1, 2, 3]
 print('before')
 print(type(wills_list))
 wills_list = list_to_series(wills_list)
@@ -27,12 +29,10 @@ print(df['date'])
 
 print(type(df['date'][0]))
 
-from package.my_mod import date_breaker
 date_breaker(df, 'date')
 print(df)
 
 
-from package.my_mod import Roadtrip
 trip = Roadtrip("ski trip", "San Francisco")
 trip.add_stop("Reno", 425)
 trip.add_stop("Boise", 630)
