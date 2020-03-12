@@ -23,6 +23,7 @@ def list_to_series(y):
     '''
     series = pd.Series(y)
     print(series)
+    return(series)
 
 
 def date_breaker(df, x):
